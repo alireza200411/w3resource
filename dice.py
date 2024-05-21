@@ -1,16 +1,11 @@
 # practice 7 & 6
-
-# def squd(to : int) -> dict :
-
-#     dice = {}
-
-#     # to = int(input('enter the number : '))
-#     for counter in range(1 , to+1) :
-#         squ = counter ** 2
-#         dice[counter] = squ
-#     return dice
-
-# print(squd(16))    
+def squd(to : int) -> dict :
+    dice = {}
+    # to = int(input('enter the number : '))
+    for counter in range(1 , to+1) :
+        squ = counter ** 2
+        dice[counter] = squ
+    return dice
 
 # -------------------------------------
 # peactice 23
@@ -36,6 +31,5 @@ def frequency(counter: int) -> dict :
             x = data.count(d)
             s = str(d)
             dic[s] = x
-
     return dic       
 

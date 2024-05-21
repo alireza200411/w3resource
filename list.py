@@ -28,12 +28,8 @@ def remover(lenth : int , counter : int , dell : int) -> list :
     print(mother_list) 
     return 'end'
 
-# d = {'dell' : 2 , 'lenth' : 3 , 'counter' : 5  }    
-# print(remover(**d))
-
 #  ---------------------------------------------
 # practice 17
-
 def prime(data:list[int]) -> bool :
     """This function identifies prime numbers in the list and returns false if there is a composite number in the list, even zero and one."""
     for i in data :
@@ -46,28 +42,17 @@ def prime(data:list[int]) -> bool :
                 else : 
                     return(f'({data}) -> True')    
                 
-# print(prime([3, 4, 7, 9]))
 
 # -------------------------------------------------
 # practice 58
-
 def change_list(firstlist :list , secondlist :list ,n:int=1) -> list :
     """"""
     m = n * -1
     firstlist[m:] = secondlist
     return firstlist 
 
-
-print(change_list([1,2,3,4,5,'a' , True] , [6 , 7 , 8 , 9] , 2))
-
 # ----------------------------------------------------
-# practice 35
 
-# mylist = ['p' , 'q']
-# n = 5
-# for data in mylist :    
-#     for i in range(1 , n+1) :
-#         data = 
 
 
 

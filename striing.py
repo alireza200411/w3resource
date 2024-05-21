@@ -1,6 +1,4 @@
-# from string import ascii_lowercase
 # practice 72
-
 def del_reapet(word:str , letter:str) -> str :
     spell_word = list(word)
     # letter = input('enter the letter : ')
@@ -13,9 +11,6 @@ def del_reapet(word:str , letter:str) -> str :
     else:
         return answer        
     
-# d = {'letter' : 'e' , 'word' : 'exersice'}    
-print(del_reapet())
-
 # ---------------------------------------------
 # practice 112
 
@@ -26,7 +21,6 @@ print(del_reapet())
 
 # ----------------------------------------------
 # practice 44
-
 def address(word:str) -> int :
     """This function shows the address of the characters of a string in the output. To exit the execution of the function, just press the enter button when asking a question."""
     while True :
@@ -47,8 +41,6 @@ def address(word:str) -> int :
                     answer = word.index(adr)
                     return(f'Current character {adr} position at {answer}')
             
-
-# print(address('hello world'))             
 # --------------------------------------------
 # practice 23
 # functional
