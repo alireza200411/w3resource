@@ -33,3 +33,21 @@ def frequency(counter: int) -> dict :
             dic[s] = x
     return dic       
 
+# -------------------------------------
+# practice 10 
+d1 = {'a' : 200 , 'b' : 100 , 'c' : 300}
+d2 = {'a' : 100 , 'b' : 200 , 'd' : 400}
+d3 =  {}
+for data in d1 : 
+    if data in d2 : 
+        answer = d1[data] + d2[data]
+        d3[data] = answer 
+    else : 
+        d3[data] = d1[data]
+for i in d2 : 
+    if i not in d3 : 
+        d3[i] = d2[i]
+print(d3)
+
+# -------------------------------------
+# practice pynative 7 

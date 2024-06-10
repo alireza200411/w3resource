@@ -52,10 +52,23 @@ def change_list(firstlist :list , secondlist :list ,n:int=1) -> list :
     return firstlist 
 
 # ----------------------------------------------------
+# practice 35 
+def combine(number: int , *character) : 
+    lst = []
+    for ch in character : 
+        lst.append(ch)
+    else :     
+        mylist = []
+        i = 1 
+        while i <= number : 
+            i = str(i)
+            for data in lst : 
+                ans = data + i
+                mylist.append(ans)
+            else :    
+                i = int(i)
+                i += 1
+        else : 
+                return mylist        
 
-
-
-
-
-    
-  
+# ----------------------------------------------------

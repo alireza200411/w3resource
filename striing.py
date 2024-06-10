@@ -49,4 +49,18 @@ def remove_newline(phrase:str) -> str :
         new_string = phrase.replace('\n' , ' ')
         return(new_string)
 
+# ---------------------------------------------
+# practice 42
+exa = 'thequickbrownfoxjumpsoverthelazydog' 
+mylist = ['a' , 'e' , 'i' , 'o' , 'u']
+mydick = {}
+for i in exa : 
+        cnt = exa.count(i) 
+        if cnt > 1 : 
+            if i not in mydick : 
+                mydick[i] = cnt
+
+print(sorted(mydick))                
+
+
 

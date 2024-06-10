@@ -54,3 +54,13 @@ def fib(n:int) :
     return(mylist)    
 
 # -----------------------------------
+# practice 31
+def dog_year():
+    age_h = int(input('enter a dog age in human years: '))
+    age_d = 0 
+    for x in range (1 , age_h + 1 ):
+        if x == 1 or x == 2 :
+            age_d += 10.5
+        else :
+            age_d += 4 
+    return f'The dog age in dog years is {int(age_d)}'
