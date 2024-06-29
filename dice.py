@@ -47,7 +47,16 @@ for data in d1 :
 for i in d2 : 
     if i not in d3 : 
         d3[i] = d2[i]
-print(d3)
+# print(d3)
 
 # -------------------------------------
-# practice pynative 7 
+# practice 43
+        
+counter = 7 
+n = 3 
+mainlist = []
+for i in range(counter) : 
+    mainlist.append([])
+
+for lst in mainlist : 
+    for j in range()

@@ -49,21 +49,21 @@ def tup_to_dict (counter : int) -> dict :
 # -----------------------------
 # practice 19 changed
 # khat be khat
-counter = int(input('enter the counter: '))
+# counter = int(input('enter the counter: '))
 datalist = []
-for i in range(counter):
-    sublist = []
-    for i2 in range(1 , 3) :
-        data = input(f'enter the data{i2}: ')
-        sublist.append(data)
-    else:
-        sublist = tuple(sublist)    
-    datalist.append(sublist)
-print(datalist)    
-dic = {}
-for j in datalist:
-    dic[j[0]] = j[1]
-print(dic)
+# for i in range(counter):
+    # sublist = []
+    # for i2 in range(1 , 3) :
+        # data = input(f'enter the data{i2}: ')
+        # sublist.append(data)
+    # else:
+        # sublist = tuple(sublist)    
+    # datalist.append(sublist)
+# print(datalist)    
+# dic = {}
+# for j in datalist:
+    # dic[j[0]] = j[1]
+# print(dic)
 
 # functional
 def list_to_dict(counter:int):
@@ -82,4 +82,17 @@ def list_to_dict(counter:int):
     for j in datalist:
         dic[j[0]] = j[1]
     return dic
+
+# --------------------------------------------
+# practice 31
+
+# t = ((1, 2, 3, 4) ,(3, 5, 2, 1) ,(2, 2, 3, 1))
+# mainlist = []
+# for data in t : 
+#     i = 0
+#     sublist = []
+#     while i < len(t) : 
+#         sublist.append(data[i])
+#         continue
+#     else :
 

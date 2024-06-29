@@ -72,3 +72,13 @@ def combine(number: int , *character) :
                 return mylist        
 
 # ----------------------------------------------------
+# practice 39
+def m_integers(*mylist : list) : 
+    newlist = []
+    for data in mylist : 
+        data = str(data)
+        newlist.append(data)
+    exa = ''.join(newlist)
+    return exa
+
+# ----------------------------------------------------
